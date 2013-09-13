@@ -1,0 +1,178 @@
+/*
+	Put your custom CSS here
+*/
+
+body {
+	margin: 0;
+	padding: 40px;
+	background: #EFEFEF;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	background-image:url('http://www.davey.com/elements/skin/home_tree.png');
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:scroll; /*This doesn't do anything when it's on the bottom and set to scroll.
+*/
+}
+
+header {
+	color: gray;
+	font-style: italic;
+	font-weight: 100;
+	
+}
+
+
+#practice {
+	text-decoration: underline;
+	text-transform: capitalize;
+	
+}
+
+#spacing {
+	white-space: pre-wrap;
+	text-align: center;
+	min-width: 500px;
+	max-width: 700px;
+
+
+}
+
+#heightstuff {
+	text-indent: 50%;
+	line-height: 300%;
+	letter-spacing: .5cm;
+	min-height: 400px;
+	max-height: 500px;
+}
+
+#box1 {
+	height:200px;
+	width:200px;
+	border:25px;
+	border-style: solid;
+	border-color: black;
+	background-color:green;
+	margin:10px;
+	padding:10px;
+	display:inline-block;
+	text-align: center;
+
+}
+
+#box2 {
+	height:50px;
+	width:50px;
+	border:2px;
+	border-style: solid;
+	border-color: black;
+	position:absolute;
+	background-color: blue;
+	z-index: -1;
+
+
+}
+
+#box3 {
+	height:100px;
+	width:100px;
+	border-width:thick;
+	border-style: solid;
+	border-color: red;
+	overflow: scroll;
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	
+}
+
+#box4 {
+	height:150px;
+	width:150px;
+	position: absolute;
+	background-color: yellow;
+	margin-left: 650px;
+	top:50px;
+
+
+}
+
+#box5 {
+	height:150px;
+	width:150px;
+	position: absolute;
+	background-color: gray;
+	right: 300px;
+
+}
+
+#box6 {
+	height:150px;
+	width:150px;
+	position: absolute;
+	background-color: pink;
+	left: 700px;
+	bottom: 50px;
+	z-index: -1;
+}
+
+#box7 {
+	height:150px;
+	width:150px;
+	position: absolute;
+	background-color: wheat;
+	right: 200px;
+	visibility: hidden;
+}
+
+#box8 {
+	height:150px;
+	width:150px;
+	background-color: purple;
+	float:right;
+
+
+	
+}
+
+#box9 {
+	height:150px;
+	width:150px;
+	background-color: lime;
+	float: left;
+	
+}
+
+#box10 {
+	height:150px;
+	width:150px;
+	background-color: brown;
+	float:right;
+	
+}
+
+
+
+#align {
+	vertical-align: top;
+}
+
+ul {
+	list-style: square; 
+	list-style-position: inside;
+}
+
+ol {
+	list-style-image: url("http://www.columbialist.com/images/web-bullet.gif")
+}
+
+#separate {
+	border-spacing:10px 20px;
+}
+
+#collapse {
+	border-collapse:collapse;
+}
+footer {
+	clear: both;
+}
